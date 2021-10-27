@@ -28,10 +28,10 @@ for i in range(1,51):
     time.sleep(1)
     #if page number is one we write the main page for the machine
     if i == 1:
-        productTitle.append(get_article("akakce.com/ocak.html"))
+        productTitle.append(get_article("https://your-scriper-site.html"))
     #if page number is not one
     else:
-        page = "akakce.com/ocak,"+str(i)+".html"
+        page = "https://your-scriper-site"+str(i)+".html"
         productTitle.append(get_article(page))
 
     print(f"{i}. sayfa için scrape işlemi bitti.")
