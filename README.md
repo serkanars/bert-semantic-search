@@ -1,4 +1,4 @@
-# Semantic search engine with BERT Algorithm
+# Semantic search with BERT Algorithm
 
 It is an application made for realtime search of any sentence or word.
 
